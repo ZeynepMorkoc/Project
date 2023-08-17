@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(3, 3, 43);
+    color: white;
+}
+
+/* başlık*/
+.header{
+    position: fixed;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+
+}
+.logo{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.navbar a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+}
+
+
+/* iç yazı*/
+.main{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+.main-content h1{
+    font-size: 60px;
+    font-weight: 400px;
+    margin-top: 250px;
+}
+.main-content p{
+    font-size: 40px;
+    font-weight: 200px;
+}
+
+.images{
+    width: 80%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:right;
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-left:100px;
+    
+}
+
+/*Hakkımda kısmı*/
+.box h1 {
+    font-size: 50px;
+    font-weight: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    background: orangered;
+    border-radius: 50px;
+   
+}
+.box p{
+   font-size: 40px;
+    text-align: center;
+   
+}
+
+/*iletişim kısmı*/
+.box1 h1 {
+    font-size: 48px;
+    font-weight: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: orangered;
+    border-radius: 50px;
+    
+
+}
+.box1 ul li a {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    margin-left:100px;
+    display: flex;
+   justify-content: center;
+}
+
+/*Yeteneklerim kısmı*/
+
+.box2 h1 {
+    font-size: 45px;
+    font-weight: 300px;
+    text-align: center;
+    list-style: none;
+    margin-top: 20px;
+    background: orangered;
+    border-radius: 50px;
+   
+}
+.box2 ul li a{
+   color:white;
+   text-decoration: none;
+   font-size: 35px;
+   display: flex;
+   justify-content: space-around;
+    background: rgb(61, 40, 11);
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid burlywood;
+    margin-bottom: 20px;
+
+}
+/*hak kısmı*/
+
+.bg{
+    background: rgb(38, 38, 143);
+   
+}
+.bg a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.bg p {
+    font-size: 50px;
+    justify-content: space-around;
+    display: flex;
+}
+
+@media screen and (max-with:1024px){
+.header{
+    width: 40%;
+    height: 40px;
+}
+.li{
+    width: 300%;
+}
+.p{
+    font-size: 14px;
+    width: 30%;
+}
+
+    
+.h1{
+    font-size: 10px;
+}
+.main{
+    width: 10%;
+    height: 10px;
+}
+.images{
+    width: 15%;
+    height: 13px;
+}
+
+
+}
+
+@media screen and (min-with:600px){
+    .header{
+        width: 10%;
+        height: 10px;
+    }
+
+    .p{
+        width: 8%;
+        height: 8px;
+    }
+    .images{
+        width: 12%;
+        height: 10px;
+    }
+    .h1{
+        font-size: 10px;
+    }
+}
